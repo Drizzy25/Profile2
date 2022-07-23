@@ -1,0 +1,59 @@
+body{
+    background: url(https://media.istockphoto.com/photos/sky-in-the-pink-and-blue-colors-effect-of-light-pastel-colored-of-picture-id1061786490?k=20&m=1061786490&s=612x612&w=0&h=YlXFrKAG-V95qWLI_u5kvQ515noO42Xj3CVnq3GgRB8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+
+    
+}
+
+
+#get-intouch{
+    border-radius: 50px;
+    background-color: lightblue;
+    padding: 3px 10px;
+    border: 0 solid ;
+
+
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.wrapper{
+    width: 40vw;
+    /* border: solid pink; */
+    display: flex;
+    padding: 30px 50px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 500px 2px black;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /*trick to give your element a round shape but always make sure the width and height have the same values*/
+   
+}
+
+h3{
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+hr{
+    width: 39px;
+    margin-left: 0;
+    margin-top: 0px;
+    background-color: red;
+    border: none;
+    height: 3px;
+}
